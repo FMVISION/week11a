@@ -35,6 +35,8 @@ public class RegisterTest extends BaseTest {
         Select select = new Select(dropDown);
         select.selectByValue("2"); // select by value
 
+
+
         WebElement emailField = Driver.findElement(By.xpath("//div[@class='inputs']//input[@type='email']"));   // email id
         emailField.sendKeys("codebuster@gmail.com");
 
